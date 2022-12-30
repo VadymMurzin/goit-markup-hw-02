@@ -1,0 +1,273 @@
+:root {
+  --navy-blue: #2e2f42;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --slate: #434455;
+  --white: #ffffff;
+  --cloud: #f4f4fd;
+  --cornflover: #e7e9fc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--navy-blue);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* ----------------- HEADER ---------------------- */
+
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+}
+.header-logo-left {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+.header-logo-right {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--navy-blue);
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--ocean);
+}
+.address {
+}
+.address-list {
+}
+.address-item {
+}
+.address-mail {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.address-mail:hover,
+.address-mail:focus {
+  color: var(--ocean);
+}
+.address-tel {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.address-tel:hover,
+.address-tel:focus {
+  color: var(--ocean);
+}
+
+/* ----------------- HERO ---------------------- */
+
+.hero {
+  background-color: var(--navy-blue);
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+.hero-btn {
+  background-color: var(--iris);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background: var(--ocean);
+}
+
+/* ----------------- ADVANTAGES ---------------------- */
+
+.advantages {
+}
+.advantages-title {
+}
+.advantages-list {
+}
+.advantages-item {
+}
+.advantages-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.advantages-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/* ----------------- DOING ---------------------- */
+
+.doing {
+}
+.doing-title {
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+.doing-list {
+}
+.doing-item {
+}
+
+/* ----------------- TEAM ---------------------- */
+
+.team {
+}
+.team-title {
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+.team-list {
+}
+.team-item {
+}
+.team-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/* ----------------- FOOTER ---------------------- */
+
+.footer {
+  background-color: var(--navy-blue);
+}
+.footer-logo {
+}
+.footer-logo-left {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+.footer-logo-right {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--cloud);
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cornflover);
+}
+
+/* ----------------- PORTFOLIO ---------------------- */
+
+/* ----------------- FILTER BUTTON ---------------------- */
+
+.filter {
+}
+.filter-list {
+}
+.filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  background: var(--ocean);
+  color: var(--white);
+}
+
+/* ----------------- PROJECT ---------------------- */
+
+.project-list {
+}
+.project-item {
+}
+.project-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.project-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
